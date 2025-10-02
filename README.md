@@ -1,6 +1,11 @@
 # quine-clock
 
 ### Cooy the code down below and execude it using node.
+
+```js
+node index.js
+```
+
 ```js
 function f(y,z){let my="00011011&0111&0110&0111&000111&0011&001011&0111&00011011&000111",mx="02&&012&012&1&012&012&0&012&012"
 
