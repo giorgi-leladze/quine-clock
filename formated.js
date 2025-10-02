@@ -1,7 +1,3 @@
-# quine-clock
-
-### Cooy the code down below and execude it using node.
-```
 function f(y,z){let my="00011011&0111&0110&0111&000111&0011&001011&0111&00011011&000111",mx="02&&012&012&1&012&012&0&012&012"
 
      
@@ -12,7 +8,3 @@ function f(y,z){let my="00011011&0111&0110&0111&000111&0011&001011&0111&00011011
      while(        i<y?.length){if(ci          [i])s+=p+"38;5;27m"      +y[i]+p+"0m"; else        s            +=p+      "38;5;244m"                   +p+"2m"      +y[i]+              p+"0m"           ;i++;                                 if(i%        
 q    ==0)s+=      " ";if         (i%(q          *2)==0)   [20,22,      26,28,         44,46,      50         ,52].         indexOf         (i/q        )>-1?s        +=`${p            }38;5;${          z?"27m"                             :`244m${ 
  p}2m`}## ${     p}0m`:s         +="   ";         if(i%(q*6)==        0)s+=           "\n";};      setTimeout(()=>         {console.clear ();f         (f+"f()         ",!z)           },1000);          console.                          log(s);};f()
-```
-
-# Source Code:
-
