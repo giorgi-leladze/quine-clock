@@ -67,7 +67,7 @@ function f(y, z){
         if(i%(q*6)==0)
             s+="\n";
     }
-    
+
     setTimeout(() => {
         console.clear()
         f(f + "f()", !z)
